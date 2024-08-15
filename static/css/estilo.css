@@ -1,0 +1,86 @@
+* {
+text-decoration: none;
+margin: 0;
+padding: 0;
+}
+
+:root {
+    --azul: #16567f;
+    --preto: black;
+    --branco: white;
+    --azul2: #6363d2;
+}
+
+/* cabeçalho */
+.logo {
+    width: 150px;
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    padding-left: 350px;
+    padding-top: 30px;
+}
+
+h1 {
+    color: var(--branco);
+}
+
+header {
+    background-color: var(--azul);
+    height: 100px;
+    display: flex;
+    margin-bottom: 40px;
+}
+
+footer {
+    background-color: var(--azul2);
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.rodape {
+    color: var(--branco);
+}
+
+.botao {
+    color: var(--branco);
+    background-color: var(--azul2);
+    margin-bottom: 20px;
+    padding: 5px;
+    margin-right: 20px;
+    margin-top: 9px;
+}
+
+.adicionar {
+    color: var(--branco);
+    background-color: var(--azul2);
+    margin: var(--preto);
+    padding: 10px;
+}
+
+p {
+    padding: 10px;
+    font-weight: bold;
+    font-size: large;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+
+}
+
+.tabela {
+    border: 2px solid var(--azul);
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+}
+
+.div {
+    display: flex;
+}
